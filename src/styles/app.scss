@@ -1,0 +1,47 @@
+$main-color : #fff;
+
+$second-color : #111111;
+
+$third-color : #FF9514;
+
+
+.calculator{
+    padding: 0 1.3125rem 0 1.25rem;
+    
+}
+
+.button{
+    width: 17.5rem;
+    height: 3.75rem;
+
+    background-color: $third-color;
+    color: #fff;
+    border-radius: 40px;
+
+}
+.button:hover{
+    background-color:$second-color;
+}
+.button:focus{
+    background-color: #575757;
+}
+.button:disabled{
+    background-color: rgba(255, 149, 20, 0.40);
+}
+
+.title{
+    font-size: 2.125rem;
+    color: $second-color;
+}
+
+.text{
+    font-size: 1.16rem;
+    color: #333E48;
+}
+
+.input{
+    width: 17.5rem;
+    height: 3.75rem;
+
+    background-color: #F3F3F4;
+}
